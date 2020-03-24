@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-color: #EAEBED;
+}
+.conteiner {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(100% - 800px) / 2);
+    margin-top: calc((100vh - 400px) / 2);
+}
+.kaire {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.desine {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #686D8A;
+}
+.small {
+    font-size: 15px;
+}
+a {
+    display: inline-block;
+    background-color: #686D8A;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 20px;
+    text-transform: uppercase;
+}
