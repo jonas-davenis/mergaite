@@ -1,4 +1,28 @@
 body {
     height: 100vh;
-    background-color: #EAEBED;
+    background-color: #F8F8F8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteiner {
+    display: inline-block;
+    width: 900px;
+    margin-top: calc((100vn - 900px) / 2)
+    margin-left: calc((100vn - 900px) / 2);
+}
+.kaire {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    color: #A0A0A0;
+}
+.mergaite {
+    display: inline-block;
+    width: 50%;
+    float: right;
+}
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 40px;
 }
