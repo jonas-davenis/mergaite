@@ -5,9 +5,9 @@ body {
 }
 .conteiner {
     display: inline-block;
-    width: 900px;
+    width: 1000px;
     margin-top: calc((100vn - 900px) / 2)
-    margin-left: calc((100vn - 900px) / 2);
+    margin-left: calc((100% - 900px) / 2);
 }
 .kaire {
     display: inline-block;
@@ -22,22 +22,29 @@ body {
     float: right;
 }
 h1 {
-    font-size: 60px;
+    font-size: 100px;
+    margin-left: 80px;
 }
 p {
     font-size: 40px;
+    margin-left: 80px;
 }
 nav {
     display: inline-block;
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 a {
     text-decoration: none;  
     color: #A5A5A5;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 15px;
 }
 .btn {
     display: inline-block;
     border: 3px solid #A5A5A5;
     border-radius: 20px;
+    padding: 2px;
+    margin-top: -5px;
 }
