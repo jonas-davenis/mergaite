@@ -5,9 +5,7 @@ body {
 }
 .conteiner {
     display: inline-block;
-    width: 1400px;
-    margin-top: calc((100vn - 900px) / 2)
-    margin-left: calc((100% - 900px) / 2);
+    width: 1300px;
 }
 .kaire {
     display: inline-block;
